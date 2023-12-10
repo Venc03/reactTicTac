@@ -1,0 +1,12 @@
+.jatekter {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: repeat(3, 50px);
+  gap: 5px;
+}
+.elem {
+  width: 50px;
+  height: 50px;
+  border: 3px solid dimgray;
+  font-size: 30px;
+}
